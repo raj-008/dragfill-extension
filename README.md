@@ -6,10 +6,6 @@ You can install this Chrome Extension locally by following these steps:
 
 1. Clone or Download this Repository
 
-   git clone https://github.com/your-username/your-extension-name.git
-
-    Or download the ZIP from GitHub and extract it.
-
 2. Open Chrome Extensions Page
    
     Go to chrome://extensions/
