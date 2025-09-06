@@ -1,4 +1,8 @@
-# dragfill-extension 
+# DragFill
+
+DragFill is Chrome extension which eliminates repetitive typing. It allows you to store your information once, and then simply drag and drop it into any input field to quickly fill out forms
+
+![drag-fill-gif](asset/drag-fill-gif.gif)
 
 # 🚀 Installation (Manual)
 
