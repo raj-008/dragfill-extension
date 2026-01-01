@@ -9,11 +9,5 @@
   "permissions": ["scripting", "activeTab", "storage"],
   "action": {
     "default_icon": "icons/icon.png"
-  },
-  "content_scripts": [
-    {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
-    }
-  ]
+  }
 }
