@@ -1,6 +1,10 @@
 let isInjected = false;
 
 chrome.action.onClicked.addListener(async (tab) => {
+  if (tab.url.startsWith("chrome://") || tab.url.startsWith("chrome-extension://") || tab.url.startsWith("edge://") || tab.url.startsWith("about:")) {
+    return;
+  }
+
   if (!isInjected) {
     await chrome.scripting.executeScript({
       target: { tabId: tab.id },
